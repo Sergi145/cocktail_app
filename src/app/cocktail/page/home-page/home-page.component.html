@@ -1,0 +1,5 @@
+
+  <s-title [title]="'Nuevos Añadidos'"></s-title>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+    <card  *ngFor="let drink of  Mojitos" [card_data]="drink" class="flex p-2"></card>
+  </div>
